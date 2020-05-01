@@ -34,12 +34,12 @@ public class J12_InitializerBlocks
         System.out.println("this is constructor");
     }
 
-    public static void main(String[] args)
+    //  // STATIC BLOCK
+//  static block un onceligi var bu adam dir adam gibi adamdir o yuzden creation of object e bagimli degildir
+//  renngini seklini en basta koyar static
+    static
     {
-        J12_InitializerBlocks obj1 = new J12_InitializerBlocks();
-        J12_InitializerBlocks obj2 = new J12_InitializerBlocks();
-        System.out.println("main method");
-
+        System.out.println("static block");
     }
 
     static
@@ -52,4 +52,33 @@ public class J12_InitializerBlocks
         System.out.println("Static Block 2");
     }
 
+//  //  INSTANCE INITIALIZER BLOCK
+//  used for initializing instance variables, belongs to object, sadece parantezin icine yazacaz
+//  instance block depends on creation of object
+//  when the object is created instance block runs first then constructor
+//  you can have multiple constructor in one class
+
+    {
+        System.out.println("ilk instance block");
+    }
+
+    {
+        System.out.println("instance block");
+    }
+
+    {
+        System.out.println("instance block3");
+    }
+
+
+
+    public static void main(String[] args)
+    {
+        J12_InitializerBlocks obj1 = new J12_InitializerBlocks();
+        J12_InitializerBlocks obj2 = new J12_InitializerBlocks();
+        System.out.println("main method");
+
+
+
+    }
 }
