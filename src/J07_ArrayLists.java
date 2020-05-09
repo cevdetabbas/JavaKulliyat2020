@@ -24,6 +24,10 @@ public class J07_ArrayLists
         ArrayList<Integer> arrList1 = new ArrayList<>();
         // or
         ArrayList<String> arrList2 = new ArrayList<String>();
+        // or
+        ArrayList<Integer> list10 = new ArrayList<>(Arrays.asList(1,0,2,0,3,0,4,0));  // boylede olabilir
+
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // ARRAY METHODS //////////////////////////////////////////////////////////////////////////////////////////////
@@ -167,6 +171,8 @@ public class J07_ArrayLists
         Integer[] arr1 = {1,2,3,4,56,7};            // array olusturalim
         System.out.println(Arrays.toString(arr1));  // bastiralim
         ArrayList<Integer> list1 = new ArrayList<>(Arrays.asList(arr1));    // arrayi arraylist e cevirelim
+        ArrayList<Integer> list100 = new ArrayList<>(Arrays.asList(1,0,2,0,3,0,4,0));  // boylede olabilir
+
         System.out.println(list1);                  // bastiralim
         list1.add(33); list1.add(44); list1.remove(1); // simdi arraylistin nimetlerinden faydalanabiliriz
         System.out.println(list1); // ekle cikar felan hatta lazimsa arraye geri cevir ama size i degistirmek lazim

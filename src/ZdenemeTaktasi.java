@@ -1,10 +1,31 @@
 import java.util.*;
 public class ZdenemeTaktasi
 {
-    public static void main(String[] args)
-    {
-        String a = "ka1m2il";
-        if(Character.isDigit(2)) System.out.println("amk"); else System.out.println("zalim");
-        System.out.println(Character.isDigit('A'));
+    private String title;
+    private String artist;
+    private int playCount;
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getArtist() {
+        return artist;
+    }
+
+    public void setArtist(String artist) {
+        this.artist = artist;
+    }
+
+    public int getPlayCount() {
+        return playCount;
+    }
+
+    public void setPlayCount(int playCount) {
+        this.playCount = playCount;
     }
 }
