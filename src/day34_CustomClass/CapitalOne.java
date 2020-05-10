@@ -12,6 +12,7 @@ public class CapitalOne
         ScrumTeam scrumTeam1 = new ScrumTeam();
         scrumTeam1.hireTester(tester1);
         System.out.println(scrumTeam1.testerTeam.size());
+        //
 
     }
 }
