@@ -1,4 +1,4 @@
 # Kulliyat
-//  KULLIYAT BY cevo 
-//  Sifir dan baslanip bir tekmaule ermesi projesidir. 
+//  Kulliyat by cevo 
+//  Sifir dan baslanan bir projedir. 
 //  kismeti nispetinde nasibi var ise tamamina erer insallah 
