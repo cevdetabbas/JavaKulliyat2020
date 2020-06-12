@@ -21,3 +21,4 @@ public interface Interfaces {
 interface Cars{abstract void start();}
 interface ElectricVehicles{abstract void Charge();abstract void SelfDrive();}
 interface GasVehicles{abstract void PumpGas();}
+//
