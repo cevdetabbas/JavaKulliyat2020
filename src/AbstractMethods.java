@@ -19,11 +19,11 @@ abstract class Shape //  final classes can not be an abstract class
 class Circle extends Shape
 {
     public double radius;
-    public final static double PI = 3.14;
+    private final static double PI = 3.14;
     Circle(double radius)
     {
         this.radius=radius;
-    }
+    }  //  abstract classes can not be final static or private.
     @Override //  any abstract method must be overritten in sub class
     public void Area()
     {
