@@ -25,6 +25,10 @@ abstract class Phone
     {
         return brand+" "+model+" "+price+" "+size+" ";
     }
+
+
+
+
 }
 final class iPhone extends Phone implements AppleApps
 {
