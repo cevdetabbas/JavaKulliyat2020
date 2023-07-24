@@ -1,4 +1,3 @@
-import com.sun.tools.internal.xjc.model.CBuiltinLeafInfo;
 
 public class LastTopics
 {
